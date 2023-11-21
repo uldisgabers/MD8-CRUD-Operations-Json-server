@@ -1,0 +1,174 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-title {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-wrapper {
+  border: 3px solid rgb(165, 165, 165);
+  border-radius: 25px;
+  background: rgb(206,194,231);
+  background: linear-gradient(0deg, rgba(206,194,231,1) 0%, rgba(233,224,255,1) 100%);
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 10px;
+  
+  height: 550px;
+}
+
+.card__img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card__img {
+ max-width: 100%;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.card__title {
+  font-size: 34px;
+}
+
+.card__description {
+  font-size: 30px;
+}
+
+.card__data {
+  font-size: 20px;
+  color: gray;
+}
+
+.card__price {
+  font-size: 20px;
+  color: rgb(255, 151, 151);
+}
+
+.card-buttons {
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-edit {
+  border: 3px solid rgba(206,194,231,1);
+  border-radius: 25px;
+  padding: 10px;
+  width: 45%;
+  cursor: pointer;
+  transition: 0.4s;
+  &:hover {
+    background-color: rgb(197, 255, 236);
+  }
+}
+
+.button-delete {
+  border: 3px solid rgba(206,194,231,1);
+  border-radius: 25px;
+  padding: 10px;
+  width: 45%;
+  cursor: pointer;
+  transition: 0.4s;
+  &:hover {
+    background-color: rgb(197, 255, 236);
+  }
+}
+
+.card__timestamp {
+  text-align: end;
+  padding: 5px;
+  color: rgb(75, 75, 75);
+}
+
+.add-new-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.add-new-box {
+  max-width: 400px;
+  width: 100%;
+  border: 3px solid rgb(165, 165, 165);
+  border-radius: 25px;
+  padding: 1rem;
+  margin: 1rem
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info-input {
+  border: 3px solid rgb(165, 165, 165);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.new-title-input {
+  border: 3px solid rgb(165, 165, 165);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.new-descr-input {
+  border: 3px solid rgb(165, 165, 165);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.new-detail-input {
+  border: 3px solid rgb(165, 165, 165);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.new-price-input {
+  border: 3px solid rgb(165, 165, 165);
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.button-add {
+  border: 3px solid rgb(165, 165, 165);
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: rgb(212, 250, 250);
+  &:hover {
+    background-color: rgb(218, 255, 169);
+  }
+  font-size: 20px;
+  width: 100px;
+  align-self: flex-end;
+}
+

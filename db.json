@@ -1,0 +1,58 @@
+{
+  "cars": [
+    {
+      "brand": "VOLVO",
+      "model": "S80",
+      "color": "White",
+      "price": "8000",
+      "createdAt": "2023-11-21T20:31:46.480Z",
+      "img": "volvo.png",
+      "id": 1
+    },
+    {
+      "brand": "AUDI",
+      "model": "A4",
+      "color": "Black",
+      "price": "9500",
+      "createdAt": "2023-11-21T20:31:59.040Z",
+      "img": "bmw.png",
+      "id": 2
+    },
+    {
+      "brand": "BMW",
+      "model": "GT",
+      "color": "RED",
+      "price": "15000",
+      "createdAt": "2023-11-21T20:32:15.841Z",
+      "img": "fiat.png",
+      "id": 3
+    },
+    {
+      "brand": "FIAT",
+      "model": "Multipla",
+      "color": "Purva-dirsiens",
+      "price": "1",
+      "createdAt": "2023-11-21T20:32:45.273Z",
+      "img": "ford.png",
+      "id": 4
+    },
+    {
+      "brand": "Žigulis",
+      "model": "Pirmais",
+      "color": "Jāņunakts",
+      "price": "100",
+      "createdAt": "2023-11-21T20:33:09.626Z",
+      "img": "mercedes.png",
+      "id": 5
+    },
+    {
+      "brand": "VW",
+      "model": "GOLF",
+      "color": "Blue",
+      "price": "7500",
+      "createdAt": "2023-11-21T20:48:28.597Z",
+      "img": "audi.png",
+      "id": 6
+    }
+  ]
+}
