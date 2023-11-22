@@ -58,6 +58,8 @@ const drawCars = () => {
       });
     });
   });
+
+  // const editBtn = document.querySelectorAll<HTMLButtonElement>('.button-edit');
 };
 
 drawCars();
@@ -84,7 +86,7 @@ inputForm.addEventListener('submit', (event) => {
     model: carModelInputValue,
     color: carColorInputValue,
     price: carPriceInputValue,
-    time: new Date(),
+    createdAt: new Date(),
     img: carPics[Math.floor(Math.random() * carPics.length)],
   }).then(() => {
     carBrandInput.value = '';
@@ -94,4 +96,3 @@ inputForm.addEventListener('submit', (event) => {
     drawCars();
   });
 });
-

@@ -10,24 +10,6 @@
       "id": 1
     },
     {
-      "brand": "AUDI",
-      "model": "A4",
-      "color": "Black",
-      "price": "9500",
-      "createdAt": "2023-11-21T20:31:59.040Z",
-      "img": "bmw.png",
-      "id": 2
-    },
-    {
-      "brand": "BMW",
-      "model": "GT",
-      "color": "RED",
-      "price": "15000",
-      "createdAt": "2023-11-21T20:32:15.841Z",
-      "img": "fiat.png",
-      "id": 3
-    },
-    {
       "brand": "FIAT",
       "model": "Multipla",
       "color": "Purva-dirsiens",
@@ -46,13 +28,22 @@
       "id": 5
     },
     {
-      "brand": "VW",
-      "model": "GOLF",
-      "color": "Blue",
-      "price": "7500",
-      "createdAt": "2023-11-21T20:48:28.597Z",
+      "brand": "WWW",
+      "model": "123123",
+      "color": "12312",
+      "price": "2113",
+      "createdAt": "2023-11-22T19:47:16.455Z",
       "img": "audi.png",
       "id": 6
+    },
+    {
+      "brand": "123",
+      "model": "21",
+      "color": "3123",
+      "price": "123123",
+      "createdAt": "2023-11-22T19:47:21.159Z",
+      "img": "toyota.png",
+      "id": 7
     }
   ]
 }
